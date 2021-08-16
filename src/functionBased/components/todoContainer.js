@@ -3,11 +3,11 @@ import { Route, Switch } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './Header';
 import InputTodo from './InputTodo';
-import TodosList from './TodosList';
+import TodosList from './TodoList';
 
 import About from '../pages/About';
-import NotMatch from '../pages/NotMatch';
-import Navbar from './Navbar';
+import NotMatch from '../pages/NoMatch';
+import Navbar from './NavBar';
 
 const TodoContainer = () => {
   function getInitialTodos() {
@@ -55,7 +55,7 @@ const TodoContainer = () => {
     setTodos(
       todos.map((todo) => {
         if (todo.id === id) {
-          todo.title = updatedTitle;
+          todos.title = updatedTitle;
         }
         return todo;
       }),
