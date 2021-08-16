@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React to-do-app
 
-## Available Scripts
+ This is a to-do list created using react features where I've consolidated my knowledge about components, props, state, and hooks, by following [this tutorial](https://ibaslogic.com/react-tutorial-for-beginners/)
 
-In the project directory, you can run:
 
-### `yarn start`
+<div align="center">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/errea/todo-reactApp)
+[![Github Issues](https://github.com/errea/todo-reactApp/issues)
+[![GitHub Pull Requests](https://github.com/errea/todo-reactApp/pull/1)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+</div>
 
-### `yarn test`
+## What was built in this project: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Todo list features (add, edit and remove to-do items).
 
-### `yarn build`
+- Components, hooks, props, states.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Functional components. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Styling. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Router.
 
-### `yarn eject`
+## Image Preview
+![Screenshot Main Page](./src/img/screen-shot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :star: [Live Demo](https://ibaslogic.github.io/react-todo-project/) :star:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To get a local copy up and running follow these simple example steps:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/errea/todo-reactApp)
 
-## Learn More
+- Click on a button named `Code`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Copy the project URL as displayed on HTTPS tab
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal
 
-### Code Splitting
+- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
-### Analyzing the Bundle Size
+  `$ git clone https://github.com/errea/todo-reactApp.git` <em>Press Enter key</em><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Your local copy will be created.
 
-### Making a Progressive Web App
+- Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- After you get the project aiming to the desired directory, you need now to install ruby globally and follow the steps below:
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Github Actions
 
-### Deployment
+To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
+   
+2. Create the `feature/branch` and push.
+   
+3. Start working on your milestone as usual.
+   
+4. Open a PR from the `feature/branch` when your work is done.
 
-### `yarn build` fails to minify
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    todo-App
+    └── node_modules
+    └── .github\workflows
+        └── linters.yml
+    └── src
+        └── /img
+      └── index.html
+      └── index.js   
+      └── components
+      └── componentsStyles 
+      └── style.css
+    └── .eslintrc.json
+    └── .gitignore
+    └── .hintrc
+    └──.stylelintrc.json
+    └── MIT.md
+    └── package-lock.json
+    └── package.json
+    └──README.md
+
+### Usage 
+
+- Make sure you have npm and node installed in your terminal.
+
+- I recommend the use of VS code as a code editor, but you can use whatever you want.
+
+- Run in your terminal `npm start` OR `yarn start` to start React website.
+## ✒️  Authors <a name = "author"></a>
+
+👤 **Eri**
+
+- Github: [@errea](https://github.com/errea)
+- Twitter: [@Erreakay](https://github.com/errea)
+- Linkedin: [Eri Okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/errea/todo-reactApp/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse Activities
+
+
+## 📝 License
+
+
+
+This project is [MIT](./MIT.md) licensed.
